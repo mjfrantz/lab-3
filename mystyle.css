@@ -1,0 +1,126 @@
+html{
+    font-size: 62.5%;
+}
+img{
+    width: 15%;
+}
+
+h1{
+    font-size: 3rem;
+    text-align: center;
+    text-transform: uppercase;
+    color: white;
+}
+
+h2{
+    text-align: center;
+    font-size: 2.5rem;
+}
+
+h3{
+    font-size: 2.2rem;
+}
+
+h4{
+    font-size: 2rem;
+}
+
+p{
+    font-size: 1.7rem;
+}
+
+.site-header.initial{
+    background: url(img/header.jpeg);
+    height: 80vh;
+    background-size: cover;
+    min-height: 500px;
+    background-position: center center;
+}
+
+
+.bar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 1rem;
+}
+
+.main{
+    display: flex;
+    height: 50%;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+/* Style to the squares */
+.site-divs{
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+}
+
+.all-divs{
+    display: flex;
+    justify-content: space-between;
+}
+
+.square{
+    flex-basis: calc(33.3% - 1rem);
+    /* text-align: center; */
+    border: 1px solid #d4d3d3;
+    background-color: #e0dede;
+    padding: 2rem;
+    border-radius: 1rem;
+}
+
+.btn{
+    background-color: darkorange;
+    color: white;
+    font-size: 1.5rem;
+    text-align: center;
+    text-decoration: none;
+    padding: 1rem;
+    border-radius: 10%;
+    margin: 1rem;
+    border: none;
+}
+
+/* Styles to the Header*/
+.navigation a{
+    color: white;
+    text-decoration: none;
+    font-size: 2rem;
+}
+
+.navigation a:hover{
+    color: #ff3300;
+}
+
+.navigation a:last-of-type{
+    margin: 0rem;
+}
+
+.transform{
+    background-image: url(img/body.jpeg);
+    height: 20rem;
+    background-position: center center;
+    color: white;
+    text-align: center;
+}
+
+.transform p{
+    padding: 1rem;
+}
+
+.blog{
+    flex-basis: 60%;
+}
+
+.input-blog{
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.opinions{
+    flex-basis: calc(40%-2rem);
+}
